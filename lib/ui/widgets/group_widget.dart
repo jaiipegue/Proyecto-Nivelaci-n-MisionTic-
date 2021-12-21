@@ -29,8 +29,8 @@ class _GroupWidgetState extends State<GroupWidget> {
           key: const ValueKey("addGroupAction"),
           child: const Icon(Icons.add),
           onPressed: () {
-            // TODO
             logInfo('Aqui navegar a AddGroupPage');
+            Navigator.push(AddGroupPage);
           },
         ));
   }
